@@ -96,7 +96,10 @@
     font-family: var(--main-font);
 }
 /* mobile media query */
-@media screen and (max-width: 480px)  {
+@media screen and (max-width: 690px)  {
+    body { 
+        width: 100%;
+    }
     .nav-link{
         font-size: 15px!important;
         margin-top: -5px;
@@ -125,6 +128,9 @@
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
+    }
+    .social-media, .footer-left{
+        width: 85%;
     }
     .footer-left{
         position: relative;
