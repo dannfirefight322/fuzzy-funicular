@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px)  {
+    .nav-link{
+        font-size: 15px!important;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .personal-image{
+        position: relative;
+        left: 10%;
+    }
+    .jumbotron-custom{
+        display: flex;
+        flex-direction: column;
+    }
+    .jumbotron-custom-right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-image-left{
+        height: auto;
+    }
+    .about-me{
+        font-size: 14px;
+    }
+    .footer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-left{
+        position: relative;
+        left: 45px;
+    }
+    .contact-info{
+        margin-top: 15px;
+    }
+    .c-info{
+        position: relative;
+        left: -15px;
+    }
+}

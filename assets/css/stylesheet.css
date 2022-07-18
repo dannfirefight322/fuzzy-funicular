@@ -5,6 +5,16 @@
     --black: #000000;
     --main-font: 'Edu QLD Beginner', cursive;
   }
+.nav-link{
+    font-family: var(--main-font);
+    margin-left: 25px;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: var(--black)!important;
+}
+.nav-link:hover{
+    color: var(--grey)!important;
+}
 .header{
     width: 100%;
 }
@@ -23,7 +33,7 @@
     top: -240px;
     left: 40%;
 }
-.jumbotron-custom{
+.jumbotron-custom, .jumbotron-custom-right{
         /*start of temp styles
         border: solid black 1px;
         end of temp styles*/
@@ -79,4 +89,9 @@
 .contact-info{
     list-style: none;
     text-align: center;
+}
+.c-info{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-family: var(--main-font);
 }
