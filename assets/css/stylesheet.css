@@ -75,6 +75,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+/*certs footer */
+.footer-container-certs{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .social-media{
     display: flex;
     flex-direction: row;
@@ -94,6 +103,26 @@
     margin-top: 5px;
     margin-bottom: -5px;
     font-family: var(--main-font);
+    cursor: pointer;
+}
+/*certification styles */
+.utsa{
+    display: flex;
+    justify-content: center;
+}
+.utsa-cert{
+    width: 60%;
+    border: solid black 1px;
+}
+.codecamp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.codecamp-cert{
+    border: solid black 1px;
+    width: 45%;
+    margin: 15px;
 }
 /* mobile media query */
 @media screen and (max-width: 690px)  {
@@ -124,7 +153,7 @@
     .about-me{
         font-size: 14px;
     }
-    .footer-container{
+    .footer-container, .footer-container-certs{
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
@@ -142,5 +171,10 @@
     .c-info{
         position: relative;
         left: -15px;
+    }
+    /*certs mobile styles */
+    .utsa-cert, .codecamp-cert{
+        width: 90%;
+        justify-content: center;
     }
 }
